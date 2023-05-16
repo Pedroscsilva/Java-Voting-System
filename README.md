@@ -1,10 +1,11 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Java Voting System
+
+Java OOP voting system, using the scanner module.
+
+In order to see it running, after cloning the project you must execute the following commands:
+
+```bash
+$ javac src/main/java/com/trybe/acc/java/sistemadevotacao/*.java
+$ cd src/main/java
+$ java com.trybe.acc.java.sistemadevotacao.Principal
+```

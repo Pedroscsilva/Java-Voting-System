@@ -87,15 +87,11 @@ public class Principal {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     GerenciamentoVotacao gerenciamentoVotacao = new GerenciamentoVotacao();
-    try {
-      Principal.cadastroCandidato(scanner, gerenciamentoVotacao);
-      Principal.cadastroEleitor(scanner, gerenciamentoVotacao);
-      Principal.realizarVotacao(scanner, gerenciamentoVotacao);
-    } catch (Error error) {
-      System.out.println(error.getMessage());
-    } finally {
-      scanner.close();
-    }
-  }
 
+    Principal.cadastroCandidato(scanner, gerenciamentoVotacao);
+    Principal.cadastroEleitor(scanner, gerenciamentoVotacao);
+    Principal.realizarVotacao(scanner, gerenciamentoVotacao);
+
+    scanner.close();
+  }
 }
